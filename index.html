@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Online Learning</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            line-height:1.6;
+        }
+
+        header{
+            background:#2c3e50;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#34495e;
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            padding:15px 20px;
+        }
+
+        nav a:hover{
+            background:#1abc9c;
+        }
+
+        .container{
+            display:flex;
+            flex-wrap:wrap;
+            padding:20px;
+        }
+
+        .box{
+            flex:1 1 300px;
+            background:#f4f4f4;
+            margin:10px;
+            padding:20px;
+            border-radius:8px;
+            text-align:center;
+        }
+
+        .box h3{
+            margin-bottom:10px;
+            color:#2c3e50;
+        }
+
+        footer{
+            background:#2c3e50;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+        }
+
+        /* Responsive for mobile */
+        @media(max-width:768px){
+            header{
+                font-size:18px;
+            }
+
+            nav{
+                flex-direction:column;
+                text-align:center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>LearnHub</h1>
+    <p>Your Online Learning Platform</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="container">
+    <div class="box">
+        <h3>Web Development</h3>
+        <p>Learn HTML, CSS, JavaScript and build responsive websites.</p>
+    </div>
+
+    <div class="box">
+        <h3>Programming</h3>
+        <p>Master C, C++, Java and Python with practical examples.</p>
+    </div>
+
+    <div class="box">
+        <h3>Data Science</h3>
+        <p>Understand data analysis, machine learning and AI basics.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 LearnHub | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
